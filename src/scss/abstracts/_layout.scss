@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 }
-
 .container {
   max-width: to-rem(375);
   flex-direction: column;
@@ -18,13 +17,21 @@
   overflow: hidden;
 
   @media only screen and (min-width: $desktop-layout) {
-    max-width: to-rem(900);
+    max-width: unset;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
-.logo-and-illustration-container,
+.illustration-container,
 .text-and-cta-container {
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
+  display: block;
+
+  @media only screen and (min-width: $desktop-layout) {
+    width: 50%;
+  }
+}
+
+.text-and-cta-container {
+  padding-left: 1.5rem;
 }

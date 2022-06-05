@@ -28,7 +28,7 @@ body {
   font-family: $font-body;
   font-weight: $body-weight-medium;
   line-height: 1.5;
-  padding: 2rem;
+  padding: 1.5rem;
 
   @media only screen and (min-width: $desktop-layout) {
     background: url('./../../images/bg-desktop.svg') no-repeat;
@@ -41,6 +41,13 @@ h1 {
   text-align: center;
   font-family: $font-headings;
   font-weight: $headings-weight-bold;
+
+  @media only screen and (min-width: $desktop-layout) {
+    font-size: 40px;;
+    margin: 30px 0;
+    width: 100%;
+    text-align: left;
+  }
 }
 
 p {
@@ -48,4 +55,9 @@ p {
   text-align: center;
   margin: 0;
   font-weight: $body-weight-medium;
+
+  @media only screen and (min-width: $desktop-layout) {
+    text-align: left;
+    font-size: 20px;
+  }
 }

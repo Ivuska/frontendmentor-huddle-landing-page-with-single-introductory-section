@@ -2,18 +2,19 @@
 
 .icons {
   width: 100%;
-  align-items: center;
   justify-content: center;
+
+  @media only screen and (min-width: $desktop-layout) {
+    justify-content: flex-end;
+  }
 }
 
 .icon-wrapper {
   display: table;
-
   width: 40px;
   height: 40px;
   color: $white;
   margin: 20px 10px;
-
   border-radius: 999px;
   border: 1px solid $white;
   &:hover,
