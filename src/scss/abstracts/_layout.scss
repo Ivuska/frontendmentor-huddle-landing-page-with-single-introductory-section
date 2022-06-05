@@ -1,8 +1,18 @@
 @use 'breakpoints' as *;
 @use 'functions' as *;
 
+.is-responsive {
+  display: flex;
+  flex-shrink: 1;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: to-rem(375);
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
   width: 100%;
   margin: auto;
   overflow: hidden;
@@ -10,4 +20,11 @@
   @media only screen and (min-width: $desktop-layout) {
     max-width: to-rem(900);
   }
+}
+
+.logo-and-illustration-container,
+.text-and-cta-container {
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
