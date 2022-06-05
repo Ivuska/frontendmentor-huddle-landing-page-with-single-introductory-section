@@ -1,0 +1,36 @@
+@use "../abstracts/index" as *;
+
+.icons {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper {
+  display: table;
+
+  width: 40px;
+  height: 40px;
+  color: $white;
+  margin: 20px 10px;
+
+  border-radius: 999px;
+  border: 1px solid $white;
+  &:hover,
+  &:focus-visible,
+  &.active {
+    border: 1px solid $soft-magenta;
+  }
+
+  a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: $white;
+    &:hover,
+    &:focus-visible,
+    &.active {
+      color: $soft-magenta;
+    }
+  }
+}
