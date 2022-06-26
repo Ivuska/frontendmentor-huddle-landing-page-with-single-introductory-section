@@ -46,8 +46,7 @@ Don't be afraid to split the page/component to the really small parts.
 ### Useful resources
 
 - [How to create icons in the circle](https://stackoverflow.com/questions/21905710/make-font-awesome-icons-in-a-circle) - This helped me to discover how to make icons in the circle.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ivuska](https://www.frontendmentor.io/profile/Ivuska)
